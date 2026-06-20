@@ -853,6 +853,7 @@ button,
 
   width:100%;
   max-width:none;
+
   position:relative;
   overflow:hidden;
 
@@ -885,8 +886,9 @@ button,
   flex-direction:column;
   align-items:center;
 
-  gap:16px;
+  gap:10px;
 }
+
 .faceit-widget::before{
 
   content:"";
@@ -924,8 +926,8 @@ button,
 
 .faceit-avatar{
 
-  width:95px;
-  height:95px;
+  width:72px;
+  height:72px;
 
   border-radius:50%;
 
@@ -952,7 +954,7 @@ button,
 
 .faceit-name{
 
-  font-size:20px;
+  font-size:18px;
 
   font-weight:800;
 
@@ -980,6 +982,39 @@ button,
   object-fit:cover;
 
   border-radius:3px;
+
+}
+
+.faceit-rank-row{
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  gap:10px;
+
+}
+
+.faceit-level-icon{
+
+  width:42px;
+  height:42px;
+
+  object-fit:contain;
+
+}
+
+.faceit-elo{
+
+  font-size:34px;
+
+  font-weight:800;
+
+  line-height:1;
+
+  color:#fff;
 
 }
 
@@ -1013,9 +1048,11 @@ button,
 
   color:#ff9900;
 
-  font-size:13px;
+  font-size:12px;
 
   font-weight:600;
+
+  margin-top:-6px;
 
 }
 
@@ -1038,7 +1075,7 @@ button,
 
 .faceit-stat{
 
-  padding:16px;
+  padding:12px;
 
   text-align:center;
 
@@ -1063,7 +1100,7 @@ button,
 
   color:#8a8a8a;
 
-  margin-bottom:6px;
+  margin-top:4px;
 
 }
 
@@ -1071,43 +1108,12 @@ button,
 
   display:block;
 
-  font-size:30px;
+  font-size:22px;
 
   font-weight:800;
 
   color:#fff;
 
-}
-
-.faceit-rank-row{
-
-  display:flex;
-
-  align-items:center;
-
-  justify-content:center;
-
-  gap:14px;
-
-}
-
-.faceit-level-icon{
-
-  width:58px;
-  height:58px;
-
-  object-fit:contain;
-}
-
-.faceit-elo{
-
-  font-size:52px;
-
-  font-weight:800;
-
-  line-height:1;
-
-  color:#fff;
 }
 
 .faceit-widget-link{
@@ -1123,7 +1129,6 @@ button,
   -webkit-tap-highlight-color:transparent;
 
 }
-
 .social-btn{
   transition:
     transform .25s ease,
