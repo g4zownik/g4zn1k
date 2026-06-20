@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>G4ZN1K</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- VIDEO BACKGROUND -->
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="assets/bg.mp4" type="video/mp4">
+  </video>
+
+  <!-- DARK OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- MAIN -->
+  <main class="center">
+
+    <!-- CARD -->
+    <section class="card">
+
+      <div class="shine"></div>
+
+      <!-- AVATAR -->
+      <div class="avatar-wrap">
+        <img src="assets/avatar.jpg" alt="avatar" class="avatar">
+        <span class="status"></span>
+      </div>
+
+      <!-- TITLE -->
+      <h1>G4ZN1K</h1>
+
+      <p class="bio">
+        building cool shit on the internet.
+      </p>
+
+
+<!-- SPOTIFY -->
+<div class="spotify-widget">
+
+  <img
+    id="spotify-image"
+    src=""
+    alt=""
+  >
+
+  <div class="spotify-info">
+
+    <span id="spotify-status">
+      Loading...
+    </span>
+
+    <h3 id="spotify-title">
+      Loading...
+    </h3>
+
+    <p id="spotify-artist"></p>
+
+    <div class="spotify-progress">
+
+      <div
+        id="spotify-progress-bar">
+      </div>
+
+    </div>
+
+    <div class="spotify-times">
+
+      <span id="spotify-current">
+        0:00
+      </span>
+
+      <span id="spotify-duration">
+        0:00
+      </span>
+
+    </div>
+
+    <a
+      id="spotify-link"
+      href="#"
+      target="_blank"
+    >
+      Open Spotify
+    </a>
+
+  </div>
+
+</div>
+
+      <!-- SOCIALS -->
+<div class="socials">
+
+  <a
+    href="https://discord.gg/ezHWvbRKxg"
+    target="_blank"
+    class="social-btn discord-btn"
+  >
+    <i class="fa-brands fa-discord"></i>
+    Discord
+  </a>
+
+  <a
+    href="https://open.spotify.com/user/ef1v51icj9byxjdu458a5t50f?si=02d7b4ddde4043e9"
+    target="_blank"
+    class="social-btn spotify-btn"
+  >
+    <i class="fa-brands fa-spotify"></i>
+    Spotify
+  </a>
+
+  <a
+    href="https://steamcommunity.com/id/g4zn1k/"
+    target="_blank"
+    class="social-btn steam-btn"
+  >
+    <i class="fa-brands fa-steam"></i>
+    Steam
+  </a>
+
+</div>
+
+    </section>
+<!-- FACEIT -->
+<a
+  href="https://www.faceit.com/en/players/G4ZOWANY"
+  target="_blank"
+  class="faceit-widget-link">
+
+<div class="faceit-widget">
+
+  <img
+    id="faceit-avatar"
+    class="faceit-avatar"
+    src=""
+    alt="Faceit Avatar"
+  >
+
+  <div class="faceit-name-row">
+
+    <span class="faceit-name">
+      G4ZOWANY
+    </span>
+
+    <img
+      src="assets/faceit/verify.png"
+      class="faceit-verified"
+      alt="Verified"
+    >
+
+    <img
+      id="faceit-country"
+      class="faceit-country"
+      src=""
+      alt="Country"
+    >
+
+  </div>
+
+<div class="faceit-rank-row">
+
+  <img
+    id="faceit-level-icon"
+    class="faceit-level-icon"
+    src=""
+    alt="Level"
+  >
+
+  <div
+    id="faceit-elo"
+    class="faceit-elo">
+    -
+  </div>
+
+</div>
+
+  <div class="faceit-progress">
+
+    <div
+      id="faceit-progress-bar"
+      class="faceit-progress-bar">
+    </div>
+
+  </div>
+
+  <div
+    id="faceit-needed"
+    class="faceit-needed">
+    -
+  </div>
+
+  <div class="faceit-stats-grid">
+
+    <div class="faceit-stat">
+      <span>MECZE</span>
+      <strong id="faceit-matches">-</strong>
+    </div>
+
+    <div class="faceit-stat">
+      <span>WR</span>
+      <strong id="faceit-winrate">-</strong>
+    </div>
+
+    <div class="faceit-stat">
+      <span>K/D</span>
+      <strong id="faceit-kd">-</strong>
+    </div>
+
+  </div>
+
+</div>
+
+</a>
+    <!-- FOOTER -->
+    <footer class="footer">
+      © 2026 G4ZN1K
+    </footer>
+
+  </main>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>

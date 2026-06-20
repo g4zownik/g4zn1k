@@ -1,0 +1,3 @@
+nowa wersja strony automatycznie się wrzuci:
+vercel --prod 
+
