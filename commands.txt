@@ -1,3 +1,170 @@
-nowa wersja strony automatycznie się wrzuci:
-vercel --prod 
+=========================================
+-------------------GIT-------------------
+=========================================
 
+📌 Sprawdzenie statusu
+
+git status
+
+Pokazuje:
+- jakie pliki zostały zmienione
+- czy są gotowe do commita
+- czy repo jest czyste
+
+
+=========================================
+📌 Dodanie zmian
+=========================================
+
+git add .
+
+Dodaje wszystkie zmiany do kolejnego commita.
+
+Jeżeli dodaję tylko jeden plik:
+
+git add style.css
+
+
+=========================================
+📌 Zapisanie zmian (commit)
+=========================================
+
+git commit -m "Opis zmian"
+
+Przykłady:
+
+git commit -m "Improve Faceit widget"
+
+git commit -m "Add Spotify animation"
+
+git commit -m "Fix progress bar"
+
+
+=========================================
+📌 Wysłanie na GitHub
+=========================================
+
+git push
+
+Wysyła zmiany na GitHub.
+
+Vercel automatycznie wykryje zmiany
+i zrobi nowy deploy strony.
+
+
+=========================================
+📌 Najczęściej używany zestaw
+=========================================
+
+git add .
+git commit -m "Opis zmian"
+git push
+
+=========================================
+📌 Historia commitów
+=========================================
+
+git log --oneline -10
+
+=========================================
+📌 Sprawdzenie czy wszystko wysłane
+=========================================
+
+git status
+
+Jeżeli widzę:
+
+nothing to commit, working tree clean
+
+to wszystko jest zapisane.
+
+=========================================
+📌 Sprawdzenie połączenia z GitHub
+=========================================
+
+git remote -v
+
+Powinno pokazać:
+
+https://github.com/g4zownik/g4zn1k.git
+
+
+=========================================
+📌 Cofnięcie zmian w pliku
+=========================================
+
+git restore style.css
+
+Przykład:
+
+git restore index.html
+
+UWAGA:
+Usuwa niezapisane zmiany.
+
+
+=========================================
+📌 Cofnięcie wszystkich zmian
+=========================================
+
+git restore .
+
+UWAGA:
+Usuwa WSZYSTKIE niezapisane zmiany.
+
+
+=========================================
+📌 Pobranie zmian z GitHub
+=========================================
+
+git pull
+
+=========================================
+📌 Pierwsza pomoc
+=========================================
+
+Co zmieniłem?
+
+git status
+
+
+Co ostatnio zapisałem?
+
+git log --oneline -5
+
+
+Czy wszystko jest na GitHub?
+
+git push
+
+Jeżeli dostanę:
+
+Everything up-to-date
+
+to wszystko jest wrzucone.
+
+
+=========================================
+📌 MÓJ STANDARDOWY WORKFLOW
+=========================================
+
+1. Zmieniam pliki
+
+2. Sprawdzam:
+
+git status
+
+3. Dodaję:
+
+git add .
+
+4. Tworzę commit:
+
+git commit -m "Opis zmian"
+
+5. Wysyłam:
+
+git push
+
+6. Gotowe 🚀
+=========================================
